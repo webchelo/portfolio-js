@@ -1,0 +1,10 @@
+.hello-card {
+    color: white;
+    background-color: rgba(49, 49, 49, 0.5);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: -8rem auto 0 auto;
+    position: relative;
+    z-index: 1;
+}

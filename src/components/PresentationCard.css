@@ -1,0 +1,16 @@
+.presentation-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40rem;
+    margin: 1.8rem auto 0 auto;
+}
+
+.presentation-profile {
+    color: white;
+}
+
+.presentation-img img {
+    width: 10rem;
+    border-radius: 100%;
+}
