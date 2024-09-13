@@ -3,6 +3,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
+
 export const DinosaurModel = () => {
   const containerRef = useRef(null);
 
@@ -46,7 +47,7 @@ export const DinosaurModel = () => {
     // Load GLB model
     const loader = new GLTFLoader();
     loader.load(
-      './src/assets/escena-dinosaurio.glb',
+      './escena-dinosaurio.glb',
       (gltf) => {
         const model = gltf.scene;
         scene.add(model);
