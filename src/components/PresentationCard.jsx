@@ -5,7 +5,7 @@ export const PresentationCard = () => {
   return (
     <div className="presentation-container">  
         <div className="presentation-profile">
-            <h1>Marcelo Anavia</h1>
+            <h2>Marcelo Anavia</h2>
             <p>Programador web y diseñador multimedial</p>
         </div>
         <div className="presentation-img">

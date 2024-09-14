@@ -11,3 +11,28 @@
     height: 3rem;
 
 }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logo-container h1 {
+    font-size: 1.2rem;
+}
+
+.logo-container img {
+    width: 31px;
+    height: 23px;
+}
+
+.github-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.github-container img {
+    width: 1.5rem;
+}
