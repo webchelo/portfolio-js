@@ -1,6 +1,7 @@
 nav {
     display: flex;
     justify-content: center;
+    padding-top: .3rem;
 }
 
 .nav-list {
@@ -17,6 +18,11 @@ nav {
 
 }
 
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
 .logo-container {
     margin-left: 1rem;
     display: flex;
@@ -25,6 +31,11 @@ nav {
     color: white;
     z-index: 1;
     margin-right: 4rem;
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: white;
 }
 
 .logo-container h1 {
@@ -74,12 +85,13 @@ nav {
         z-index: 2;
         top: 3rem;
         right: 0;
-        height: 30rem;
+        height: 22rem;
         width: 50vw;
         /*background: rgb(24, 167, 112);*/
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.1s ease-in;
+        border-radius: 2rem;
     }
 }
 /* Active Class */
@@ -90,11 +102,12 @@ nav {
 /* Toggle Icon Animation */
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-4px, 5px);
+    transform: rotate(-45deg) translate(-6px, 5px);
 }
 .toggle .line2 {
     opacity: 0;
 }
 .toggle .line3 {
-    transform: rotate(45deg) translate(-4px, -5px);
+    transform: rotate(45deg) translate(-6px, -5px);
 }
+

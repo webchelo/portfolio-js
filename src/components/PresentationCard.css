@@ -40,3 +40,19 @@
         margin-top: 0rem;
     }
 }
+
+.presentation-container {
+    animation-duration: 1s;
+    animation-name: fadeinfast;
+}
+
+@keyframes fadeinfast {
+    from {
+        opacity: .5;
+        
+    }
+
+    to {
+        opacity: 1;
+    }
+}

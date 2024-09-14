@@ -2,6 +2,7 @@ import './Navbar.css'
 import logo from '../assets/logo.png'
 import github from '../assets/github.png'
 import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
 
@@ -23,12 +24,12 @@ export const Navbar = () => {
     <nav>
       <div className='logo-container'>
         <img src={logo} alt="" />
-        <h1>Marcelo Anavia</h1>
+        <h1><NavLink to='/'>Marcelo Anavia</NavLink></h1>
       </div>
       <ul className={active}>
-        <li>Trabajos</li>
-        <li>Portfolio</li>
-        <li>Cv</li>
+        <li><NavLink to='trabajos'>Trabajos</NavLink></li>
+        <li><NavLink to='portfolio'>Portfolio</NavLink></li>
+        <li><NavLink to='curriculum'>Currículum</NavLink></li>
         <div className='github-container'>
           <img src={github} alt="" />
           <li>Github</li>

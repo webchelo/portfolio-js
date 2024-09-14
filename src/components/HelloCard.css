@@ -15,3 +15,21 @@
         width: fit-content;
     }
 }
+
+.hello-card {
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: -5rem;
+        opacity: .5;
+        
+    }
+
+    to {
+        margin-top: -8rem;
+        opacity: 1;
+    }
+}
