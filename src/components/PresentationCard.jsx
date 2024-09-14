@@ -6,7 +6,7 @@ export const PresentationCard = () => {
     <div className="presentation-container">  
         <div className="presentation-profile">
             <h1>Marcelo Anavia</h1>
-            <p>Diseñador multimedial y programador web</p>
+            <p>Programador web y diseñador multimedial</p>
         </div>
         <div className="presentation-img">
             <img src={perfil} alt="Imagen de perfil de Marcelo Anavia" />

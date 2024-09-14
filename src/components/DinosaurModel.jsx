@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-
+import './DinosaurModel.css'
 
 export const DinosaurModel = () => {
   const containerRef = useRef(null);
@@ -127,25 +127,10 @@ export const DinosaurModel = () => {
   }, []);
 
   return (
-    <div
-      style={{
-        width: '50rem',
-        height: '30rem',
-        position: 'relative',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        }}>
+    <div className='model-container'>
         <div 
+          className='model'
           ref={containerRef} 
-          style={{
-            width: '50rem',
-            height: '30rem',
-            position: 'absolute',
-            top: '-3rem',
-            zIndex: '-10',
-            left: '50%',
-            transform: 'translateX(-50%)',
-          }}
         />
     </div>
   );

@@ -1,0 +1,35 @@
+.model-container {
+    width: 50rem;
+    height: 30rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.model {
+    width: 50rem;
+    height: 30rem;
+    position: absolute;
+    top: -3rem;
+    z-index: -10;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 800px) {
+    .model-container {
+        width: 25rem;
+    }
+    .model {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .model-container {
+        width: 18rem;
+    }
+    .model {
+        width: 18rem;
+    }
+}

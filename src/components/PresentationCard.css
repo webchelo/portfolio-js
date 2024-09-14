@@ -11,6 +11,28 @@
 }
 
 .presentation-img img {
-    width: 10rem;
+    width: 8rem;
     border-radius: 100%;
+    margin: 1rem;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 800px) {
+    .presentation-container {
+        flex-direction: column-reverse;
+        width: 25rem;
+    }
+    .presentation-img img {
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .presentation-container {
+        flex-direction: column-reverse;
+        width: 15rem;
+    }
+    .presentation-img img {
+        margin-top: 0rem;
+    }
 }

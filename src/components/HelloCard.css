@@ -1,10 +1,17 @@
 .hello-card {
     color: white;
     background-color: rgba(49, 49, 49, 0.5);
-    width: fit-content;
+    width: 32rem;
     padding: 1rem;
     border-radius: 1rem;
     margin: -8rem auto 0 auto;
     position: relative;
     z-index: 1;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .hello-card{
+        width: fit-content;
+    }
 }
