@@ -1,15 +1,11 @@
-import { DinosaurModel } from './components/DinosaurModel'
-import { HelloCard } from './components/HelloCard'
 import { Navbar } from './components/Navbar'
-import { PresentationCard } from './components/PresentationCard'
+import { Home } from './pages/Home'
 
 export const App = () => {
   return (
     <>
-      <Navbar/>
-      <DinosaurModel />
-      <HelloCard />
-      <PresentationCard />
+      <Navbar />
+      <Home />
     </>
   )
 }
