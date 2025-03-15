@@ -1,7 +1,10 @@
 nav {
+    z-index: 10;
+    position: relative; 
     display: flex;
     justify-content: center;
     padding-top: .3rem;
+    background-color: rgba(26, 26, 26, 0.5) ;
 }
 
 .nav-list {
@@ -13,7 +16,6 @@ nav {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgba(26, 26, 26, 0.5);
     height: 3rem;
 
 }
@@ -21,6 +23,10 @@ nav {
 .nav-list a {
     text-decoration: none;
     color: white;
+}
+
+.title {
+    margin-left: .5rem;
 }
 
 .logo-container {
@@ -87,26 +93,25 @@ nav {
         right: 0;
         height: 22rem;
         width: 50vw;
-        /*background: rgb(24, 167, 112);*/
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.1s ease-in;
         border-radius: 2rem;
     }
 }
-/* Active Class */
+
 .nav-active {
     transform: translateX(0%);
 }
 
-/* Toggle Icon Animation */
-
 .toggle .line1 {
     transform: rotate(-45deg) translate(-6px, 5px);
 }
+
 .toggle .line2 {
     opacity: 0;
 }
+
 .toggle .line3 {
     transform: rotate(45deg) translate(-6px, -5px);
 }

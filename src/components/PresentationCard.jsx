@@ -2,6 +2,7 @@ import './PresentationCard.css'
 import perfil from '../assets/perfil.jpg'
 
 export const PresentationCard = () => {
+
   return (
     <div className="presentation-container">  
         <div className="presentation-profile">
@@ -11,6 +12,7 @@ export const PresentationCard = () => {
         <div className="presentation-img">
             <img src={perfil} alt="Imagen de perfil de Marcelo Anavia" />
         </div>
+        
     </div>
   )
 }

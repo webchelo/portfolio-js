@@ -21,10 +21,12 @@ export const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav id='navbar'>
       <div className='logo-container'>
+      <NavLink to='/' style={ { display: 'flex' } }>
         <img src={logo} alt="" />
-        <h1><NavLink to='/'>Marcelo Anavia</NavLink></h1>
+        <h1 className='title'>Marcelo Anavia</h1>
+      </NavLink>
       </div>
       <ul className={active}>
         <li><NavLink to='trabajos'>Trabajos</NavLink></li>
