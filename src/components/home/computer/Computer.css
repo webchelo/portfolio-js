@@ -1,9 +1,10 @@
 .container-computer {
+    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    height: 60rem;
-    background-color: rgb(18, 29, 18);
+    height: 40rem;
     margin: 0;
     /*overflow: hidden;*/
 }

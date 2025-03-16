@@ -1,9 +1,11 @@
 import { JurassicBash } from './JurassicBash'
 import './Computer.css'
+import { Canvas } from './games/Canvas'
 
 export const Computer = () => {
   return (
     <div className='container-computer'>
+      <Canvas />
     <div className="computer">
     <div className="monitor">
       <div className="screen">

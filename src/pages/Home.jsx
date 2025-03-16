@@ -1,4 +1,4 @@
-import { Computer } from "../components/home/computer/Computer"
+import { NavLink } from "react-router-dom"
 import { DinosaurModel } from "../components/home/DinosaurModel"
 import { HelloCard } from "../components/home/HelloCard"
 import { Info } from "../components/home/Info"
@@ -14,7 +14,9 @@ export const Home = () => {
         <PresentationCard />
         <Info />
       </div>
-      <Computer />
+      <NavLink to='easter-egg'><div
+        className="dino-egg"
+      ></div></NavLink>
     </>
   )
 }
