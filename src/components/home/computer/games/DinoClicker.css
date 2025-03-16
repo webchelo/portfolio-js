@@ -1,0 +1,37 @@
+.title-clicker {
+    font-size: .9rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.button-clicker {
+    background-color: unset;
+    border: none;
+    color: rgb(0, 255, 13);
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.button-clicker:disabled {
+    color: rgba(0, 0, 0, 0);
+}
+
+.span-clicker {
+    background-color: rgb(0, 255, 13);;
+    color: black;
+}
+
+.counter {
+    margin: .5rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid lime;
+}
+
+.stats {
+    margin-bottom: .2rem;
+}
+
+.quit {
+    margin-top: .2rem;
+}

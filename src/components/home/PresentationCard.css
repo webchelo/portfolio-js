@@ -16,6 +16,7 @@
 
 .presentation-img img {
     width: 6rem;
+    height: 6rem;
     border-radius: 100%;
     margin: 1rem;
     border: 2px solid white;
@@ -57,3 +58,4 @@
         opacity: 1;
     }
 }
+

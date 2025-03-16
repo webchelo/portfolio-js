@@ -1,0 +1,12 @@
+input {
+    all:unset;
+}
+
+form {
+    display: flex;
+    align-items: flex-start;
+}
+
+form, input {
+    width: 100%;
+}

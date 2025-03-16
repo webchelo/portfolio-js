@@ -1,6 +1,6 @@
 import './Navbar.css'
-import logo from '../assets/logo.png'
-import github from '../assets/github.png'
+import logo from '../../assets/logo.png'
+import github from '../../assets/github.png'
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
@@ -32,10 +32,12 @@ export const Navbar = () => {
         <li><NavLink to='trabajos'>Trabajos</NavLink></li>
         <li><NavLink to='portfolio'>Portfolio</NavLink></li>
         <li><NavLink to='curriculum'>Currículum</NavLink></li>
-        <div className='github-container'>
-          <img src={github} alt="" />
-          <li>Github</li>
-        </div>
+        <a href='https://github.com/webchelo' target='_blank' rel='noopener noreferrer'>
+          <div className='github-container'>
+            <img src={github} alt='GitHub' />
+            <li>Github</li>
+          </div>
+        </a>
       </ul>
       <div onClick={ navToggle } className={icon}>
         <div className='line1'></div>

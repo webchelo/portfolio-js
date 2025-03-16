@@ -1,16 +1,3 @@
-body {
-    overflow: hidden; /* Bloquea el scroll natural */
-}
-
-.container-to-scroll {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-}
-
-.container-hero {
-    height: 100vh;
+.hero {
+    height: 90rem;
 }
