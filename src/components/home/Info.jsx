@@ -12,6 +12,9 @@ import Tailwind from '../../assets/Tailwind_CSS_Logo.svg';
 import Tanstack from '../../assets/tanstack.png';
 import Ts from '../../assets/Typescript_logo_2020.svg';
 import Zustand from '../../assets/zustand.svg';
+import Three from '../../assets/Threejs-logo.svg'
+import Postgre from '../../assets/postgre.svg'
+import Astro from '../../assets/astro.svg'
 import './Info.css';
 
 export const Info = () => {
@@ -108,6 +111,27 @@ export const Info = () => {
             alt="Zustand Icon" 
             className="logo" 
             onMouseEnter={() => setTecnologia('Zustand')} 
+            onMouseLeave={() => setTecnologia('')} 
+          />
+          <img 
+            src={Three} 
+            alt="Three js Icon" 
+            className="logo" 
+            onMouseEnter={() => setTecnologia('Three.js')} 
+            onMouseLeave={() => setTecnologia('')} 
+          />
+          <img 
+            src={Postgre} 
+            alt="Postgre sql Icon" 
+            className="logo" 
+            onMouseEnter={() => setTecnologia('PostgreSQL')} 
+            onMouseLeave={() => setTecnologia('')} 
+          />
+          <img 
+            src={Astro} 
+            alt="Astro Icon" 
+            className="logo" 
+            onMouseEnter={() => setTecnologia('Astro')} 
             onMouseLeave={() => setTecnologia('')} 
           />
         </div>

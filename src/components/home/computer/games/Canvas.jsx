@@ -8,12 +8,7 @@ export const Canvas = () => {
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
-    
-    // Pintar fondo verde
-    // ctx.fillStyle = '#121d12';
-    // ctx.fillRect(0, 0, canvas.width, canvas.height);
-    
-    // Mouse events
+  
     canvas.addEventListener('mousedown', empezarDibujo);
     canvas.addEventListener('mousemove', dibujar);
     canvas.addEventListener('mouseup', pararDibujo);
@@ -45,8 +40,7 @@ export const Canvas = () => {
     function pararDibujo() {
       dibujando = false;
     }
-    
-    // Cleanup
+
     return () => {
       canvas.removeEventListener('mousedown', empezarDibujo);
       canvas.removeEventListener('mousemove', dibujar);
