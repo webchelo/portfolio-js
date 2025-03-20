@@ -63,8 +63,8 @@
     top: 8rem;
     left: calc(50% - 9rem);
     width: 18rem;
-    animation: spin 30s linear infinite, glow 3s ease-in-out infinite alternate;
-    transform-origin: 45% 47%;
+    animation: spin 10s linear infinite, glow 3s ease-in-out infinite alternate;
+    transform-origin: 50% 50%;
     filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
 }
 
